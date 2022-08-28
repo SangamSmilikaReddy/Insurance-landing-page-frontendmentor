@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@200;700&display=swap');
+body{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    Font size: 16px;
+    margin: 0px 0px 0px 0px;
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+.header{
+    margin-left: 165px;
+    letter-spacing: 1px;
+}
+.header img{
+    margin-top: 40px;
+}
+.nav_part{
+    margin-left: 835px;
+    margin-top: -40px;
+}
+.nav_part a{
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 20px;
+    text-decoration: none;
+    color:hsl(217, 7%, 47%) ;
+}
+.nav_part button{
+    margin-left: 10px;
+    background-color: hsl(0, 0%, 98%);
+    padding: 10px 25px 10px 25px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+}
+.part-1{
+    background-color: hsl(256, 26%, 20%);
+    padding-left: 180px;
+    padding-top:140px;
+    margin-top: 20px;
+}
+.bg_img{
+    position: relative;
+    z-index: 1;
+    margin-top: -1250px;
+    top: 1600px;
+}
+.bg_img .right_bg_img{
+    position: relative;
+    z-index: 2;
+    left: 1083px;
+    bottom: 983px;
+}
+.bg_img .img_family{
+    padding-left: 540px;
+    position: relative;
+    bottom: 200px;
+    z-index: 1;
+    width: 550px;
+    height: 650px;
+}
+.part-1{
+    z-index: 2;
+}
+.part-1 hr{
+    width: 150px;
+    margin-left: 0;
+}
+.part-1 h1{
+    margin-top: 60px;
+    color:hsl(0, 0%, 98%);
+    font-size: 60px;
+    max-width: 450px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.part-1 p{
+    color: hsl(0, 0%, 98%);
+    max-width: 520px;
+    font-weight:100;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: -10px;
+}
+.part-1 button{
+    margin-top: 20px;
+    margin-bottom: 130px;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(256, 26%, 20%);
+    padding: 15px 25px 15px 25px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    border-color: white;
+    border-width: 3px;
+    border-style: double;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.part-2{
+    margin-top: 300px;
+    margin-right: 160px;
+    padding-left: 160px;
+}
+.part-2 hr{
+    width: 150px;
+    margin-left: 0;
+    background-color: hsl(256, 26%, 20%);
+}
+.part-2 h1{
+    font-size: 60px;
+}
+.des_box_3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    max-height: 400px;
+}
+
+.box_p{
+    margin-top: 90px;
+    padding-right:38px ;
+}
+.box_p p{
+    max-width:355px ;
+    font-weight: 700;
+    line-height: 25px;
+}
+.box_p img{
+    width: 80px;
+    height: 80px;
+}
+.box_p h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.purple_bg{
+    margin-top: 130px;
+    padding: 30px 80px 30px 80px;
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 800px;
+}
+.purple_bg h1{
+    color: hsl(0, 0%, 98%);
+    line-height: 30px;
+    m
+}
+.purple_bg button{
+    margin-top: 60px;
+    margin-left: 330px;
+    margin-bottom:60px;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(256, 26%, 20%);
+    padding: 15px 25px 15px 25px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    border-color: hsl(0, 0%, 98%);
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-width: 3px;
+    border-style: double;
+}
+.part-3{
+    margin-top: 130px;
+    background-color: hsl(0, 0%, 96%);
+    padding: 60px 130px 60px 130px;
+    background-image: url(bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+}
+.social_media{
+    padding-left: 1070px;
+    margin-top: -25px;
+}
+.social_media img{
+    padding-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+.fotter_nav{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+.bg_footer{
+    position: relative;
+    margin-left: 0;
+    z-index: 2;
+}
+.p_box{
+    margin-right: 170px;
+}
+.p_box p{
+    color:hsl(217, 7%, 47%);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.p_desc{
+    margin-top: 35px;
+}
+.p_desc p{
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.part-3 hr{
+    margin-top: 25px;
+    color:hsl(215, 100%, 13%);
+    opacity: 50%;
+}
