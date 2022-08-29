@@ -27,6 +27,9 @@ h1{
     text-decoration: none;
     color:hsl(217, 7%, 47%) ;
 }
+.nav_part a:hover{
+    color: hsl(210, 3%, 31%);
+}
 .nav_part button{
     margin-left: 10px;
     background-color: hsl(0, 0%, 98%);
@@ -36,6 +39,11 @@ h1{
     border-color: black;
     border-width: 3px;
     border-style: double;
+}
+.nav_part button:hover{
+    color:hsl(0, 0%, 98%) ;
+    background-color: hsl(256, 26%, 20%);
+    cursor: pointer;
 }
 .part-1{
     background-color: hsl(256, 26%, 20%);
@@ -100,6 +108,12 @@ h1{
     letter-spacing: 1px;
     font-size: 16px;
 }
+.part-1 button:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+    cursor: pointer;
+}
+
 .part-2{
     margin-top: 300px;
     margin-right: 160px;
@@ -167,6 +181,11 @@ h1{
     border-width: 3px;
     border-style: double;
 }
+.purple_bg button:hover{
+    background-color:hsl(0, 0%, 98%) ;
+    color: hsl(256, 26%, 20%);
+    cursor: pointer;
+}
 .part-3{
     margin-top: 130px;
     background-color: hsl(0, 0%, 96%);
@@ -182,6 +201,12 @@ h1{
     padding-left: 10px;
     height: 30px;
     width: 30px;
+}
+.social_media img:hover{
+    cursor: pointer;
+    color-scheme: rgb(30, 30, 30);
+    filter: invert(0.5);
+    filter:  brightness(5) invert(1);
 }
 .fotter_nav{
     margin-top: 45px;
@@ -216,6 +241,7 @@ h1{
     color:hsl(215, 100%, 13%);
     opacity: 50%;
 }
+
 @media only screen and (max-width: 600px) {
     .header{
         margin-left: 25px;
